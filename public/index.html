@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Comafi Neo Flow" />
+    <title>Comafi Neo Flow</title>
+    <link href="./font/ubuntu.css?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Necesitas habilitar Javascript para ver esta aplicación.</noscript>
+    <div class="root">
+      <nav class="mainNavbar">
+        <img src="./img/brandLogoImg.png" alt="Comafi. Si te va bien, nos va bien." class="brandLogo">
+        <div id="reloj"></div>
+      </nav>
+      <div class="appContainer">
+        <div id="anuncios">
+          <div class="anuncios-wrapper">
+            <video id="videos" autoplay muted width="931px" height="835px">
+              <source src="" id="video" type="video/mp4">
+              El navegador no soporta la etiqueta video de HTML5
+            </video>
+          </div>
+        </div>
+        <div class="turnos-container">
+          <ul class="turnos-wrapper">
+            <li class="title"><span>Turno</span><span>Puesto</span></li>
+            <div id="turnos" class="list-wrapper"></div>
+          </ul>
+        </div>
+        <div class="bannerBcraWrapper">
+          <div class="anunciosBcraWrapper">
+            <div class=" marquee-container" >
+              <div class="marquee">
+                <p>#ComafiTips. Por favor, para depósitos, pagos y/o extracciones, te recomendamos dirigirte a las Terminales de Autoservicio y/o Cajeros Automáticos. Por cualquier otra operación te sugerimos utilizar nuestro homebanking / mobile banking. Hoy más que nunca, Si te va bien, nos va bien.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>  
+  <script src="./js/index.js"></script>
+  <script src="./js/carrousel.js"></script>
+</html>

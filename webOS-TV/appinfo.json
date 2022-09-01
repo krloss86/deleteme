@@ -1,0 +1,13 @@
+{
+  "id": "com.comafi.svlc.tv",
+  "version": "1.0.0",
+  "vendor": "Comafi",
+  "type": "web",
+  "main": "index.html",
+  "title": "SVLC",
+  "icon": "icon.png",
+  "requiredPermissions": [
+    "time.query",
+    "activity.operation"
+  ]
+}

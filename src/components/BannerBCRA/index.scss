@@ -1,0 +1,21 @@
+.marquee {
+  flex: 0 0 auto;
+  min-width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: scroll 70s linear 0s infinite;
+  animation-play-state: running;
+  animation-delay: 0s;
+  animation-direction: normal;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }  
+  100% {
+    transform: translateX(-100%);
+  }
+}
