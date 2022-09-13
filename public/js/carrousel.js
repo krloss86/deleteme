@@ -15,7 +15,7 @@ function girar() {
     if(indiceVideoActual < 0) {
         indiceVideoActual = CANTIDAD_TOTAL_VIDEO -1;
     }
-    siguienteVideo()
+    siguienteVideo();
 }
 
 function siguienteVideo() {

@@ -11,6 +11,8 @@
   <body>
     <div id="root"></div>
     <noscript>Necesitas habilitar Javascript para ver esta aplicación.</noscript>
+
+    
     <div class="root">
       <nav class="mainNavbar">
         <img src="./img/brandLogoImg.png" alt="Comafi. Si te va bien, nos va bien." class="brandLogo">
@@ -19,7 +21,7 @@
       <div class="appContainer">
         <div id="anuncios">
           <div class="anuncios-wrapper">
-            <video id="videos" autoplay muted width="931px" height="835px">
+            <video id="videos" autoplay muted width="100%">
               <source src="" id="video" type="video/mp4">
               El navegador no soporta la etiqueta video de HTML5
             </video>
@@ -42,7 +44,12 @@
         </div>
       </div>
     </div>
+    <audio id="timbres" controls style="display: none">
+      <source src="./videos/timbre-tv-neo-flow.mp3" type="audio/mpeg">
+      El navegador no soporta la etiqueta video de HTML5
+    </audio>
   </body>  
   <script src="./js/index.js"></script>
   <script src="./js/carrousel.js"></script>
+  <script src="./js/array.js"></script>
 </html>
